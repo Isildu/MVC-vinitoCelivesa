@@ -7,7 +7,7 @@
     <h1>Llista d'Articles</h1>
     <ul>
         <?php foreach ($articles as $article): ?>
-            <li><?= $article['nom'] ?></li>
+            <li><?= $article['art_contingut'] ?></li>
         <?php endforeach; ?>
     </ul>
 </body>
